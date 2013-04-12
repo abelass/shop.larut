@@ -34,30 +34,22 @@ body{
 
 .container{margin-top:4em;}
 .content { 
-width:37%;
-float:right;
-  font-size: 80%;
+	width:72%;
+	float:left;
+  font-size: 78%;
+  padding: 0 0.5em;
 }
 
-#extra1{width:14%;float:left;}
+#extra1{width:0;}
 
-#extra1 h2, #extra1 .h2 { 
-font-size: 1.3em;
-line-height: normal;
-}
-
-.extra1 .menu { 
-background:  transparent;
-border: none;
-padding: 0;
-}
 
 #extra2 {
     clear: none;
     float: left;
-    padding-top: 0;
+    padding: 0 0.5em;
     text-align: center;
-    width: 48%;
+    width: 24%;
+    font-size:1em;
 }
 
 #footer{padding-top:1em;background:#ffffff; text-align:center}
@@ -177,20 +169,8 @@ aside.tools{
 }
 .formulaire_menu_lang{}
 
-.formulaire_newsletter{
-	background:none;
-	padding:0;
-	border:none;
-	position:absolute;
-	top:6em;
-	width:100%
-	}
 
-.formulaire_newsletter input.text{float:left;width:80%;font-size:0.8em;}
-
-.formulaire_newsletter .editer{padding:0}
-.formulaire_newsletter .editer label{float:left;margin-right:0.5em;}
-.formulaire_newsletter .boutons{margin:0; font-size:0.8em;padding:0;float:right}
+.formulaire_panier {font-size:80%;}
 
 /*defintions générales*/
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
